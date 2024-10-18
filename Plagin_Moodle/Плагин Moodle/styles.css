@@ -1,0 +1,120 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.bar {
+    width: 1050px;
+    height: 137px;
+    background: #F5F5F5;
+    margin: auto;
+    margin-top: 113px;
+    padding-top: 52px;
+}
+
+.label-stats {
+    width: 193px;
+    height: 55px;
+    background: #EEECEC;
+    margin: 0 28px 51px auto;
+    text-align: center;
+    padding-top: 31px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 315px 272px 369px;
+    grid-template-rows: 239px 321px;
+    gap: 61px 46px;
+    width: 1050px;
+    margin: auto;
+    margin-top: 61px;
+}
+
+.stats-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #E9E9E9;
+    border: 1px solid #C7C7C7;
+    border-radius: 20px;
+}
+
+.activity {
+    height: 239px;
+}
+
+.last-row {
+    display: grid;
+    grid-template-columns: 563px 416px;
+    grid-template-rows: 321px;
+    column-gap: 70px;
+}
+
+.panel-label {
+    border-bottom: 1px solid #C7C7C7;
+    text-align: center;
+    padding-top: 30px;
+    height: 42px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.panel-footer {
+    background: #989797;
+    width: auto;
+    height: 53px;
+    padding: auto;
+    border-radius: 0 0 20px 20px;
+}
+
+.panel-footer>button {
+    background: #D9D9D9;
+    border: none;
+    width: 105px;
+    height: 31px;
+    border-radius: 10px;
+    margin: 11px 18px 11px auto;
+    padding: 0;
+}
+
+.activity>.panel-footer {
+    padding-left: 192px;
+}
+
+.progress>.panel-footer {
+    padding-left: 149px;
+}
+
+.visitors>.panel-footer {
+    padding-left: 246px;
+}
+
+.time>.panel-footer {
+    padding-left: 440px;
+}
+
+.discussion>.panel-footer {
+    padding-left: 294px;
+}
+
+.stats>.stats-panel>.panel-content {
+    height: 114px;
+}
+
+.last-row>.stats-panel>.panel-content {
+    height: 196px;
+}
+
+.panel-content {
+    height: auto;
+}
+
+.info {
+    background: #E9E9E9;
+    width: 1050px;
+    height: 668px;
+    margin: 50px auto 0 auto;
+}
